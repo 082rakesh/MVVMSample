@@ -1,0 +1,35 @@
+/* 
+  Localization.strings
+  MVVMSample
+
+  Created by r.f.kumar.mishra on 08/03/19.
+  Copyright © 2019 rakesh.mishra. All rights reserved.
+*/
+
+
+"Home.title" = "Home";
+"Settings.title" = "Settings";
+"Settings.done" = "Done";
+
+
+"Settings.section.1" = "Secton 1";
+"Settings.section.2" = "Section 2";
+"Settings.section.3" = "Section 3";
+
+"Settings.section1.title1" = "Title 1";
+"Settings.section1.title2" = "Title 2";
+"Settings.section1.title3" = "Title 3";
+"Settings.section1.title4" = "Title 4";
+"Settings.section1.title5" = "Title 5";
+
+"Settings.section2.title1" = "Title 1";
+"Settings.section2.title2" = "Title 2";
+"Settings.section2.title3" = "Title 3";
+"Settings.section2.title4" = "Title 4";
+"Settings.section2.title5" = "Title 5";
+"Settings.section2.title6" = "Title 6";
+
+"Settings.section3.title1" = "Title 1";
+"Settings.section3.title2" = "Title 2";
+"Settings.section3.title3" = "Title 3";
+"Settings.section3.subtitle1" = "SubTitle 1";

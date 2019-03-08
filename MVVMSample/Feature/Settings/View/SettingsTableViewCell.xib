@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="GothamSSm-Book.otf">
+            <string>GothamSSm-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="SettingsTableViewCell" rowHeight="73" id="KGk-i7-Jjw" customClass="SettingsTableViewCell" customModule="MVVMSample" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="348" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="314" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="gshdgscddasdzfas" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="none" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Enz-rd-4D4">
+                        <rect key="frame" x="20" y="25.5" width="118.5" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="GothamSSm-Book" family="Gotham SSm" pointSize="14"/>
+                        <color key="textColor" red="0.066666666666666666" green="0.066666666666666666" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="sgdvsv" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXo-iF-yM7">
+                        <rect key="frame" x="264.5" y="25.5" width="44.5" height="22"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="GothamSSm-Book" family="Gotham SSm" pointSize="14"/>
+                        <color key="textColor" red="0.60784313725490191" green="0.60784313725490191" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0nB-ri-D3d">
+                        <rect key="frame" x="0.0" y="68.5" width="348" height="1"/>
+                        <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="GeT-vu-e3f"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Enz-rd-4D4" secondAttribute="bottom" constant="22" id="7mJ-c6-p6K"/>
+                    <constraint firstAttribute="bottom" secondItem="rXo-iF-yM7" secondAttribute="bottom" constant="22" id="Nri-jf-7HT"/>
+                    <constraint firstAttribute="bottom" secondItem="0nB-ri-D3d" secondAttribute="bottom" id="PWD-hb-nl5"/>
+                    <constraint firstItem="Enz-rd-4D4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="cA2-Kq-YvF"/>
+                    <constraint firstItem="rXo-iF-yM7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25.5" id="kot-9I-h8f"/>
+                    <constraint firstItem="rXo-iF-yM7" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Enz-rd-4D4" secondAttribute="trailing" constant="15" id="lYz-at-OxE"/>
+                    <constraint firstItem="Enz-rd-4D4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25.5" id="oW2-yD-nLF"/>
+                    <constraint firstAttribute="trailing" secondItem="rXo-iF-yM7" secondAttribute="trailing" constant="5" id="qqZ-KA-FvL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="0nB-ri-D3d" firstAttribute="leading" secondItem="KGk-i7-Jjw" secondAttribute="leading" id="Hzw-of-C2Y"/>
+                <constraint firstAttribute="trailing" secondItem="0nB-ri-D3d" secondAttribute="trailing" id="qCi-GY-PCQ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="detailLabel" destination="rXo-iF-yM7" id="I7m-TP-6gf"/>
+                <outlet property="titleLabel" destination="Enz-rd-4D4" id="Mya-33-iwG"/>
+            </connections>
+            <point key="canvasLocation" x="160" y="166.41679160419793"/>
+        </tableViewCell>
+    </objects>
+</document>
