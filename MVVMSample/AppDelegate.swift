@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MVVMSample
 //
-//  Created by r.f.kumar.mishra on 08/03/19.
+//  Created by rakesh.mishra on 08/03/19.
 //  Copyright © 2019 rakesh.mishra. All rights reserved.
 //
 

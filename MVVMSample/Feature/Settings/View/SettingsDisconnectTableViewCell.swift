@@ -1,9 +1,9 @@
 //
 //  SettingDisconnectFooterView.swift
-//  IAPDemo
+//  MVVMSample
 //
-//  Created by r.f.kumar.mishra on 05/02/19.
-//  Copyright © 2019 Accenture. All rights reserved.
+//  Created by rakesh.mishra on 05/02/19.
+//  Copyright © 2019 rakesh.mishra. All rights reserved.
 //
 
 import UIKit

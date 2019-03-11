@@ -2,8 +2,8 @@
 //  UIColor+Test.swift
 //  MVVMSample
 //
-//  Created by r.f.kumar.mishra on 08/03/19.
-//  Copyright © 2019 r.f.kumar.mishra. All rights reserved.
+//  Created by rakesh.mishra on 08/03/19.
+//  Copyright © 2019 rakesh.mishra. All rights reserved.
 //
 
 import UIKit

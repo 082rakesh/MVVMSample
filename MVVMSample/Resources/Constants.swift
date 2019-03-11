@@ -1,9 +1,9 @@
 //
 //  Constants.swift
-//  IAPDemo
+//  Sample
 //
 //  Created by rakesh.mishra on 12/02/19.
-//  Copyright © 2019 r.f.kumar.mishra. All rights reserved.
+//  Copyright © 2019 rakesh.mishra. All rights reserved.
 //
 
 import UIKit
@@ -66,5 +66,7 @@ enum Constants {
         static let buttonsHeight = 40.0
         static let leaddingAndTrailingEdge = 40.0
         static let closeButton = "close"
+        static let isOnboardingShown = "isOnboardingShown"
+
     }
 }

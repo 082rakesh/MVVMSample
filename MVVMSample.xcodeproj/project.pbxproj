@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0A69942232725500A8A87B /* TestViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A69932232725500A8A87B /* TestViewModel.swift */; };
+		4F0A69962236713600A8A87B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A69952236713600A8A87B /* HomeViewModel.swift */; };
+		4F0A69982236729000A8A87B /* OnboardingPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0A69972236729000A8A87B /* OnboardingPreference.swift */; };
 		4F0C72F222323D9B001CFCD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C72F122323D9B001CFCD9 /* AppDelegate.swift */; };
 		4F0C72F422323D9B001CFCD9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0C72F322323D9B001CFCD9 /* HomeViewController.swift */; };
 		4F0C72F722323D9B001CFCD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0C72F522323D9B001CFCD9 /* Main.storyboard */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F0A69932232725500A8A87B /* TestViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewModel.swift; sourceTree = "<group>"; };
+		4F0A69952236713600A8A87B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4F0A69972236729000A8A87B /* OnboardingPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPreference.swift; sourceTree = "<group>"; };
 		4F0C72EE22323D9B001CFCD9 /* MVVMSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F0C72F122323D9B001CFCD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F0C72F322323D9B001CFCD9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				4F0C72F322323D9B001CFCD9 /* HomeViewController.swift */,
+				4F0A69952236713600A8A87B /* HomeViewModel.swift */,
+				4F0A69972236729000A8A87B /* OnboardingPreference.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -178,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				4F0C733B22324931001CFCD9 /* Settings.swift */,
+				4F0A69932232725500A8A87B /* TestViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -313,13 +322,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F0C7334223246D2001CFCD9 /* SettingSectionsHeaderView.swift in Sources */,
+				4F0A69982236729000A8A87B /* OnboardingPreference.swift in Sources */,
 				4F0C72F422323D9B001CFCD9 /* HomeViewController.swift in Sources */,
+				4F0A69942232725500A8A87B /* TestViewModel.swift in Sources */,
 				4F0C7337223246D2001CFCD9 /* SettingsTableViewCell.swift in Sources */,
 				4F0C731B223242EC001CFCD9 /* UIColor+Test.swift in Sources */,
 				4F0C733C22324931001CFCD9 /* Settings.swift in Sources */,
 				4F0C72F222323D9B001CFCD9 /* AppDelegate.swift in Sources */,
 				4F0C732422324549001CFCD9 /* SettingsViewController.swift in Sources */,
 				4F0C7335223246D2001CFCD9 /* SettingClockTableViewCell.swift in Sources */,
+				4F0A69962236713600A8A87B /* HomeViewModel.swift in Sources */,
 				4F0C733E22324964001CFCD9 /* SettingViewModel.swift in Sources */,
 				4F0C7336223246D2001CFCD9 /* SettingsDisconnectTableViewCell.swift in Sources */,
 				4F0C7319223242B0001CFCD9 /* UIFont+Test.swift in Sources */,

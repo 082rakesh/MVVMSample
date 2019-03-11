@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  MVVMSample
 //
-//  Created by r.f.kumar.mishra on 08/03/19.
+//  Created by rakesh.mishra on 08/03/19.
 //  Copyright © 2019 rakesh.mishra. All rights reserved.
 //
 
@@ -10,10 +10,15 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    private let viewModel:HomeViewModel = HomeViewModel()
+
+    // MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setupUI()
+        showOnBoardingScreen()
     }
 
     /**
@@ -25,6 +30,23 @@ class HomeViewController: UIViewController {
     
     @IBAction func settingAction(_ sender: UIButton) {
         //self.present(SettingsViewController(), animated: true, completion: nil)
+    }
+    
+    /**
+     This method is used to show the onboarding alert
+     */
+    private func showOnBoardingScreen() {
+        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) { [weak self] in
+            self?.viewModel.showOnboardingScreenIfNecessary()
+        }
+        
+        viewModel.onUpdate = { [weak self] isOnboardingShow in
+            if isOnboardingShow ==  false {
+               let alert = UIAlertController(title: "Onboarding", message: "Onboarding has been shown", preferredStyle: .alert)
+                alert.addAction(UIAlertAction(title: "show onboarding", style: .default, handler: nil))
+                self?.present(alert, animated: true, completion: nil)
+            }
+        }
     }
 
 }
