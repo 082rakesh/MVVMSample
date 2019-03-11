@@ -36,6 +36,7 @@ class HomeViewController: UIViewController {
      This method is used to show the onboarding alert
      */
     private func showOnBoardingScreen() {
+        // show onboarding screen when app launch first time after 2 secong of delay.
         DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) { [weak self] in
             self?.viewModel.showOnboardingScreenIfNecessary()
         }
