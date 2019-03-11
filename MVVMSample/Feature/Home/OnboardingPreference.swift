@@ -13,8 +13,14 @@ protocol OnboardingPreference {
     func getOnboardingShown() -> Bool
 }
 
+/**
+ A class represents the onboarding prefrences
+ */
 final class OnboardingPreferenceStore: OnboardingPreference {
 
+    /**
+     setup onboarding key
+     */
     func setOnboardingShown(_ value: Bool) {
         let defaults = UserDefaults.standard
         
